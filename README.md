@@ -1,7 +1,7 @@
 # *ChatGPT Unity All In One* is All Your Need
-This Package aims to provide a easy-for-use ChatGPT Unity Wrapper that supports all Chatgpt features, support **latest Chatgpt 3.5 turbo 16k** and **function_call**
+This Package aims to provide a easy-for-use ChatGPT Unity Wrapper that supports all Chatgpt features, support latest *function_call**, ** Chatgpt 3.5 turbo 16k** and  ** Chatgpt 4 32k*
 ## Features 💡
-- [x] change between different models: Chatgpt 3.5, Chatgpt 4, davinci, curie
+- [x] change between different models: Chatgpt 3.5 Turbo, Chatgpt 3.5 Turbo 16k, Chatgpt 4, Chatgpt 4 32k, davinci, curie
 - [x] support basic chatgpt api usage: "role", "content", "name", "function", "tempeature", "max_token", etc
 - [x] support function call
 - [ ] support stream 
@@ -23,7 +23,9 @@ Or add this to **manifest.json**: "com.charliedreemur.chatgptall-in-one": "https
 
 ## Guide 📖
 ### Basic
-For simple chat with Chatgpt, select a model, enter your api and add a listener to the Chatgpt Response Event to get the reponse message, you can also view my example in the example folder.
+For simple chat with Chatgpt, select a model, enter your api (apply here: https://openai.com/blog/introducing-chatgpt-and-whisper-apis), and add a listener to the Chatgpt Response Event to get the reponse message, you can also view my example in the example folder.
+
+Note: For using Chatgpt 4 model, you have to first have the access for its API.
 
 <img width="304" alt="Type your API here" src="https://github.com/CharlieDreemur/ChatgptUnityAllInOne/assets/91376582/7a5eac34-f747-4521-a4ac-3591c52f2c4c">
 
