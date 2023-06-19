@@ -6,8 +6,15 @@ This Package aims to provide a easy-for-use ChatGPT Unity Wrapper support all Ch
 - [x] support function call
 - [ ] support stream 
 
-## Guide
 
+## Installation
+### Direclty Download 
+Direct download whole repo as a zip, unzip it and copy the whole Assets/ChatgptAllInOne Folder to your Assets folder.
+
+### Install via Unity Package Manager
+
+
+You can view an example in example folder
 
 ## Credits
 This package largely expand base on repo https://github.com/GraesonB/ChatGPT-Wrapper-For-Unity
