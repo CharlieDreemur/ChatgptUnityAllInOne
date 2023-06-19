@@ -10,7 +10,7 @@ This Package aims to provide a easy-for-use ChatGPT Unity Wrapper support all Ch
 ## Installation
 ### Direclty Download 
 Direct download whole repo as a zip, unzip it and copy the whole Assets/ChatgptAllInOne Folder to your Assets folder.
-You can also clone the whole repo by type 
+You can also clone the whole repo by type
 ```
 git clone https://github.com/CharlieDreemur/ChatgptUnityAllInOne.git
 ```
@@ -19,7 +19,9 @@ git clone https://github.com/CharlieDreemur/ChatgptUnityAllInOne.git
 ## Guide
 ### Basic
 For simple chat with Chatgpt, select a model, enter your api and add a listener to the Chatgpt Response Event to get the reponse message, you can also view my example in the example folder.
+
 <img width="304" alt="Type your API here" src="https://github.com/CharlieDreemur/ChatgptUnityAllInOne/assets/91376582/7a5eac34-f747-4521-a4ac-3591c52f2c4c">
+
 <img width="374" alt="DemoJPG" src="https://github.com/CharlieDreemur/ChatgptUnityAllInOne/assets/91376582/a8e3f77c-9487-4559-85ac-9bfbaf6b7e4d">
 
 ### Message
