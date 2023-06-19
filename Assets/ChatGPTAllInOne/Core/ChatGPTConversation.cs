@@ -23,12 +23,15 @@ namespace ChatgptAllInOne
 
         public enum Model
         {
-            ChatGPT,
+            ChatGPT3,
+            ChatGPT3_16k,
+            ChatGPT4,
+            ChatGPT4_32K,
             Davinci,
             Curie
         }
         [SerializeField]
-        public Model _model = Model.ChatGPT;
+        public Model _model = Model.ChatGPT3;
         private string _selectedModel = null;
         [SerializeField]
         private int _maxTokens = 500;
@@ -63,7 +66,7 @@ namespace ChatgptAllInOne
         private void Start()
         {
 
-            FunctionInfo functionInfo = FunctionInfo.ConvertFunctionToJsonFormat(typeof(FunctionCallController).GetMethod("GetCurrentWeather")); 
+            FunctionInfo functionInfo = FunctionInfo.ConvertFunctionToJsonFormat(typeof(FunctionCallController).GetMethod("GetCurrentWeather"));
             _functions.Add(functionInfo);
 
         }
@@ -85,10 +88,25 @@ namespace ChatgptAllInOne
             //_initialPrompt = 
             switch (_model)
             {
-                case Model.ChatGPT:
+                case Model.ChatGPT3:
                     _chat = new Chat(_initialPrompt);
                     _uri = "https://api.openai.com/v1/chat/completions";
                     _selectedModel = "gpt-3.5-turbo-0613";
+                    break;
+                case Model.ChatGPT3_16k:
+                    _chat = new Chat(_initialPrompt);
+                    _uri = "https://api.openai.com/v1/chat/completions";
+                    _selectedModel = "gpt-3.5-turbo-16k-0613";
+                    break;
+                case Model.ChatGPT4:
+                    _chat = new Chat(_initialPrompt);
+                    _uri = "https://api.openai.com/v1/chat/completions";
+                    _selectedModel = "gpt-4";
+                    break;
+                case Model.ChatGPT4_32K:
+                    _chat = new Chat(_initialPrompt);
+                    _uri = "https://api.openai.com/v1/chat/completions";
+                    _selectedModel = "gpt-4-32k";
                     break;
                 case Model.Davinci:
                     _prompt = new Prompt(_chatbotName, _initialPrompt);
@@ -107,7 +125,16 @@ namespace ChatgptAllInOne
         {
             switch (_model)
             {
-                case Model.ChatGPT:
+                case Model.ChatGPT3:
+                    _chat = new Chat(initialPrompt);
+                    break;
+                case Model.ChatGPT3_16k:
+                    _chat = new Chat(initialPrompt);
+                    break;
+                case Model.ChatGPT4:
+                    _chat = new Chat(initialPrompt);
+                    break;
+                case Model.ChatGPT4_32K:    
                     _chat = new Chat(initialPrompt);
                     break;
                 default:
@@ -129,15 +156,16 @@ namespace ChatgptAllInOne
         {
             SendToChatGPT(Speaker.function, message, methodName);
         }
-        
-        public void SendAsFunctionWithMethodName(string message,  string methodName){
+
+        public void SendAsFunctionWithMethodName(string message, string methodName)
+        {
             SendToChatGPT(Speaker.function, message, methodName);
         }
-        
+
         [ContextMenu("Send Current Chat")]
         private void SendCurrentChat()
         {
-            if (_model == Model.ChatGPT)
+            if (_model == Model.ChatGPT3)
             {
                 if (_useProxy)
                 {
@@ -168,7 +196,7 @@ namespace ChatgptAllInOne
 
             _lastUserMsg = message;
             if (isLog) Debug.Log(_lastUserMsg);
-            if (_model == Model.ChatGPT)
+            if (_model == Model.ChatGPT3)
             {
                 if (_useProxy)
                 {

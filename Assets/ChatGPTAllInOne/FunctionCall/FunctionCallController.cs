@@ -12,7 +12,8 @@ namespace ChatgptAllInOne
 
         [SerializeField]
         private ChatGPTConversation chatGPTConversation;
-
+        [SerializeField]
+        private List<string> registeredFunctions;
         public static void InvokeStatic(FunctionCall functionCall)
         {
 
@@ -79,14 +80,15 @@ namespace ChatgptAllInOne
                     },
                 },
             };
-         
-
+            
         }
+
         //Test Method
         public void GetCurrentWeather(string location, string format)
         {
-            string str = $@"The current weather at {location} is 114514 degrees {format}";
+            string str = $@"The current weather at {location} is 20 degrees {format}";
             Debug.Log("GetCurrentWeather: " + str);
+            //Resend to the chatgpt to tell the function's result
             chatGPTConversation.SendAsFunction(str);
         }
 

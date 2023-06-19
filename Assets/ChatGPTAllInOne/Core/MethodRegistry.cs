@@ -5,6 +5,7 @@ namespace ChatgptAllInOne
     {
         public static Dictionary<string, MethodMetadata> Methods = new Dictionary<string, MethodMetadata>();
     }
+    
 
     public class MethodMetadata
     {
