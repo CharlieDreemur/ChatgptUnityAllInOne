@@ -9,9 +9,11 @@ This Package aims to provide a easy-for-use ChatGPT Unity Wrapper support all Ch
 
 ## Installation
 ### Direclty Download 
-Direct whole repo as a zip, and copy the Assets/ChatgptAllInOne Folder to your Assets folder
+Direct download whole repo as a zip, unzip it and copy the whole Assets/ChatgptAllInOne Folder to your Assets folder.
 
 ### Install via Unity Package Manager
+
+
 You can view an example in example folder
 
 ## Credits
