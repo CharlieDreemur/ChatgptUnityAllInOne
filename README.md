@@ -74,7 +74,7 @@ private void Awake()
 Noted that your function should only be public, if it's a static method it can be directly call by using InvokeStatic(). If it's a method in an instance, you have to first get the instance and then invoke instance.InvokeInstance() to invoke the corrsponding method according to the Chatgpt's response
 ```
 FunctionCall functionCall = message.function_call;
-            if (functionCall != null)
+        if (functionCall != null)
             {
                 functionCallController.InvokeInstance(functionCall);
                 _chat.AppendMessage(message);
