@@ -36,9 +36,10 @@ These are all defined in Message, and if it's null it will not be send to Chatgp
 
 ### Function Call
 ![image](https://github.com/CharlieDreemur/ChatgptUnityAllInOne/assets/91376582/a74a9a85-ce02-4691-9826-e6e9fa265816)
-To let Chatgpt invoke your defined functions, you have to give all funciton/arguments' description to the Chatgpt, you have to register your function's info in the FunctionCallController class in order for the correct use of function call.
+To let Chatgpt invoke your defined functions, you have to give all funciton/arguments' description to the Chatgpt, you have to register your function's info in the *FunctionCallController* class in order for the correct use of function call.
+
 For example:
-You want to let Chatgpt invoke GetCurrentWeather to get the weather of a specific location:
+You want to let Chatgpt invoke *GetCurrentWeather* to get the weather of a specific location:
 You first defined your function:
 ```
 //Test Method
