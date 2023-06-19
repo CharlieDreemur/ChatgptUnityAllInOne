@@ -1,6 +1,6 @@
 # *ChatGPT Unity All In One* is All Your Need
-This Package aims to provide a easy-for-use ChatGPT Unity Wrapper support all Chatgpt features, support **latest Chatgpt 3.5 turbo 16k** and **function_call**
-## Features
+This Package aims to provide a easy-for-use ChatGPT Unity Wrapper that supports all Chatgpt features, support **latest Chatgpt 3.5 turbo 16k** and **function_call**
+## Features 💡
 - [x] change between different models: Chatgpt 3.5, Chatgpt 4, davinci, curie
 - [x] support basic chatgpt api usage: "role", "content", "name", "function", "tempeature", "max_token", etc
 - [x] support function call
@@ -21,7 +21,7 @@ Go to package manager and select **add package from Git Url**, type this: https:
 Or add this to **manifest.json**: "com.charliedreemur.chatgptall-in-one": "https://github.com/CharlieDreemur/ChatgptUnityAllInOne.git"
 
 
-## Guide
+## Guide 📖
 ### Basic
 For simple chat with Chatgpt, select a model, enter your api and add a listener to the Chatgpt Response Event to get the reponse message, you can also view my example in the example folder.
 
@@ -34,7 +34,7 @@ For simple chat with Chatgpt, select a model, enter your api and add a listener 
 According to the OpenAI's api reference (https://platform.openai.com/docs/api-reference/chat/create#chat/create-functions), in one message you have four property: "role", "content", "name", "function_call".
 These are all defined in Message, and if it's null it will not be send to Chatgpt by using JsonIgnore.
 
-### Function Call
+### Function Call 🤗
 ![image](https://github.com/CharlieDreemur/ChatgptUnityAllInOne/assets/91376582/a74a9a85-ce02-4691-9826-e6e9fa265816)
 To let Chatgpt invoke your defined functions, you have to give all funciton/arguments' description to the Chatgpt, you have to register your function's info in the *FunctionCallController* class in order for the correct use of function call.
 
