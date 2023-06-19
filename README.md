@@ -11,13 +11,14 @@ This Package aims to provide a easy-for-use ChatGPT Unity Wrapper support all Ch
 ### Direclty Download 
 Download the unitypackage from Release, or
 Direct download whole repo as a zip, unzip it and copy the whole Assets/ChatgptAllInOne Folder to your Assets folder.
-You can also clone the whole repo by type in terminal
+You can also clone the whole repo by typing followings in terminal
 ```
 git clone https://github.com/CharlieDreemur/ChatgptUnityAllInOne.git
 ```
 ### Install via Unity Package Manager
 Go to package manager and select **add package from Git Url**, type this: https://github.com/CharlieDreemur/ChatgptUnityAllInOne.git
-Or add this to manifest.json: "com.charliedreemur.chatgptall-in-one": "https://github.com/CharlieDreemur/ChatgptUnityAllInOne.git"
+
+Or add this to **manifest.json**: "com.charliedreemur.chatgptall-in-one": "https://github.com/CharlieDreemur/ChatgptUnityAllInOne.git"
 
 
 ## Guide
