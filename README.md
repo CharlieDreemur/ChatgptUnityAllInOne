@@ -16,6 +16,9 @@ You can also clone the whole repo by type in terminal
 git clone https://github.com/CharlieDreemur/ChatgptUnityAllInOne.git
 ```
 ### Install via Unity Package Manager
+Go to package manager and select **add package from Git Url**, type this: https://github.com/CharlieDreemur/ChatgptUnityAllInOne.git
+Or add this to manifest.json: "com.charliedreemur.chatgptall-in-one": "https://github.com/CharlieDreemur/ChatgptUnityAllInOne.git"
+
 
 ## Guide
 ### Basic
