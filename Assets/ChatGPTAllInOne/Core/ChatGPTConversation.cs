@@ -7,9 +7,8 @@ using Reqs;
 using UnityEngine.Events;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using UGC.UGCTinderAI.Action;
 using System.Runtime.CompilerServices;
-namespace UGC.UGCTinderAI.API
+namespace ChatgptAllInOne
 {
 
     public class ChatGPTConversation : MonoBehaviour

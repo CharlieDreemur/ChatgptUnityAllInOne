@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace UGC.UGCTinderAI.API {
+namespace ChatgptAllInOne {
     [Serializable]
     public struct GPTRes
     {

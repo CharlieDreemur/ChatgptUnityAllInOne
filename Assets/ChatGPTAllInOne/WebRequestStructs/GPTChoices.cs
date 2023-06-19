@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UGC.UGCTinderAI.API {
+namespace ChatgptAllInOne {
     [Serializable]
     public struct GPTChoices
     {

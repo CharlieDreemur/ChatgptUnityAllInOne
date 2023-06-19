@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using Newtonsoft.Json;
-namespace UGC.UGCTinderAI.API
+namespace ChatgptAllInOne
 {
 
     [Serializable]

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
-using UGC.UGCTinderAI.API;
+using ChatgptAllInOne;
 using Newtonsoft.Json;
 namespace Reqs
 {

@@ -3,7 +3,7 @@ using UnityEngine.Events;
 using UnityEngine.UIElements;
 using Reqs;
 
-namespace UGC.UGCTinderAI.API {
+namespace ChatgptAllInOne {
     public class UI : MonoBehaviour
     {
         private Requests _requests = new Requests();

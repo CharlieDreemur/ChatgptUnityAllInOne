@@ -4,8 +4,7 @@ using UnityEngine;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Reflection;
-using UGC.UGCTinderAI.Action;
-namespace UGC.UGCTinderAI.API
+namespace ChatgptAllInOne
 {
     public class FunctionCall
     {

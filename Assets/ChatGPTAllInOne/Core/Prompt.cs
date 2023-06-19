@@ -1,4 +1,4 @@
-﻿namespace UGC.UGCTinderAI.API {
+﻿namespace ChatgptAllInOne {
     public class Prompt
     {
         private string _initialPrompt;

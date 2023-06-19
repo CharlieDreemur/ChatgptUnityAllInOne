@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UGC.UGCTinderAI.API;
+using ChatgptAllInOne;
 using System.Reflection;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-namespace UGC.UGCTinderAI.Action
+namespace ChatgptAllInOne
 {
     public class FunctionCallController : MonoBehaviour
     {

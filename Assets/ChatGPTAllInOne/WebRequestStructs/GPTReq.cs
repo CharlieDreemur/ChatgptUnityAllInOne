@@ -1,4 +1,4 @@
-﻿namespace UGC.UGCTinderAI.API {
+﻿namespace ChatgptAllInOne {
     public struct GPTReq
     {
         public string model;

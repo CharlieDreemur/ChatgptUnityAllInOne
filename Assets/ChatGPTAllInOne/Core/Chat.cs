@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
-namespace UGC.UGCTinderAI.API {
+namespace ChatgptAllInOne {
     // Due to OpenAI's new chat completions api, this replaces the old "Prompt" class, but the prompt class is still used for the older models.
     [Serializable]
     public class Chat

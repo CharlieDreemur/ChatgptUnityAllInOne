@@ -6,7 +6,7 @@ using UnityEngine;
 using System.Reflection;
 
 
-namespace UGC.UGCTinderAI.API
+namespace ChatgptAllInOne
 {
     public struct Parameters
     {

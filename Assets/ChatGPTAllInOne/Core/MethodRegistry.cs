@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-namespace UGC.UGCTinderAI.API
+namespace ChatgptAllInOne
 {
     public static class MethodRegistry
     {

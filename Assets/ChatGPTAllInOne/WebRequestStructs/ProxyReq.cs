@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Newtonsoft.Json.Linq;
-namespace UGC.UGCTinderAI.API {
+namespace ChatgptAllInOne {
     public struct ProxyReq
     {
         public string model;
