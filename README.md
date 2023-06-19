@@ -1,5 +1,5 @@
 # *ChatGPT Unity All In One* is All Your Need
-This Package aims to provide a easy-for-use ChatGPT Unity Wrapper that supports all Chatgpt features, support latest **function_call**, **Chatgpt 3.5 turbo 16k** and  ** Chatgpt 4 32k**
+This Package aims to provide a easy-for-use ChatGPT Unity Wrapper that supports all Chatgpt features, support latest **function_call**, **Chatgpt 3.5 turbo 16k** and  **Chatgpt 4 32k**
 ## Features 💡
 - [x] change between different models: Chatgpt 3.5 Turbo, Chatgpt 3.5 Turbo 16k, Chatgpt 4, Chatgpt 4 32k, davinci, curie
 - [x] support basic chatgpt api usage: "role", "content", "name", "function", "tempeature", "max_token", etc
