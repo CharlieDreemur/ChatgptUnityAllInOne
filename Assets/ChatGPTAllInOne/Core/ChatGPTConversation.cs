@@ -91,12 +91,12 @@ namespace ChatgptAllInOne
                 case Model.ChatGPT3:
                     _chat = new Chat(_initialPrompt);
                     _uri = "https://api.openai.com/v1/chat/completions";
-                    _selectedModel = "gpt-3.5-turbo-0613";
+                    _selectedModel = "gpt-3.5-turbo";
                     break;
                 case Model.ChatGPT3_16k:
                     _chat = new Chat(_initialPrompt);
                     _uri = "https://api.openai.com/v1/chat/completions";
-                    _selectedModel = "gpt-3.5-turbo-16k-0613";
+                    _selectedModel = "gpt-3.5-turbo-16k";
                     break;
                 case Model.ChatGPT4:
                     _chat = new Chat(_initialPrompt);
