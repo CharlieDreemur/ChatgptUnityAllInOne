@@ -165,7 +165,7 @@ namespace ChatgptAllInOne
         [ContextMenu("Send Current Chat")]
         private void SendCurrentChat()
         {
-            if (_model == Model.ChatGPT3)
+            if (_model == Model.ChatGPT3 || _model == Model.ChatGPT3_16k || _model == Model.ChatGPT4 || _model == Model.ChatGPT4_32K)
             {
                 if (_useProxy)
                 {
@@ -196,7 +196,7 @@ namespace ChatgptAllInOne
 
             _lastUserMsg = message;
             if (isLog) Debug.Log(_lastUserMsg);
-            if (_model == Model.ChatGPT3)
+            if (_model == Model.ChatGPT3 || _model == Model.ChatGPT3_16k || _model == Model.ChatGPT4 || _model == Model.ChatGPT4_32K)
             {
                 if (_useProxy)
                 {
